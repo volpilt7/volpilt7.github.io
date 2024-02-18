@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proximo Torneo</title>
+    <link rel="stylesheet" href="./final.css">
+    <script src="./javachat.js"></script>
+
+</head>
+<body>
+    <header class="center">
+        <div >
+            <div><img class="izq" src="logo golf.png" width="150" alt="logo"></div>
+            <h1 > Las Mezquitas Golf Club </h1>
+        </div>
+    </header> 
+    <br><br><hr><hr>
+    <section class="formula">
+        <span>
+             <p>Nombre: *</p> <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido" required>
+        </span>
+        
+        <span>
+            <p>Edad: *</p> <input type="number" name="edad" id="edad" placeholder="Indique su edad" required>
+            
+        </span>
+        
+        <span class="color">
+             <p>Cantidad en la linea:</p> <br>
+              <input type="radio" id="1jugador" name="personas" value="1">
+             <label for="1jugador">1 Jugador</label><br>
+             
+             <input type="radio" id="2jugadores" name="personas" value="2">
+             <label for="2jugadores">2 Jugadores</label><br>
+             
+             <input type="radio" id="3jugadores" name="personas" value="3">
+             <label for="3jugadores">3 Jugadores</label><br>
+             
+             <input type="radio" id="4jugadores" name="personas" value="4">
+             <label for="4jugadores">4 Jugadores</label><br>
+        </span>
+            
+        <span>
+             <p>Marque solo si es socio:</p><input type="checkbox" id="socio" name="socio">
+        </span>
+
+    </section>
+    <button onclick="greenfee()">Calcular Greenfee</button>
+    <br><br>
+    <button onclick="borrar()"> Borrar Datos </button>
+    <br><br>
+    <div id="resultadof"></div>
+    <hr><hr><br><br>
+    <footer>
+        <a href="final1.html"><button> Pagina principal</button></a>
+    </footer>
+
+    
+</body>
+</html>

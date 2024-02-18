@@ -1,0 +1,68 @@
+.encabezado{
+    display: flex;
+
+}
+
+.izq{
+    float: left
+
+}
+.center{
+    display:block ;
+    justify-content: center ;
+}
+body{
+    background-color:rgb(105, 130, 105);
+    padding: 5px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+.textoimagen1{
+    display: flex;
+    justify-content: space-between;
+    text-align:justify;
+}
+.video{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+.division{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.borde{
+    border-style: solid;
+    border-color: rgb(241, 219, 191);
+}
+.formula{
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    height: 4px;
+    background-color:rgb(241, 219, 191);
+   
+}
+h1{
+    color: rgb(185, 155, 107);
+    
+}
+p{
+    color: rgb(185, 155, 107);
+}
+.color{
+    color: rgb(185, 155, 107);
+}
+.textvid{
+    height: 5em;
+}
+.algo{
+    -ms-flex-align: center;
+}
